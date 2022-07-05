@@ -233,13 +233,9 @@ footer p{
         margin-top: 3rem 0;
     }
 }
-@media (max-width:706px) {
-  .middle_layer{
-        display: flex;
-        flex-direction: column;
-  }
 
-}
+
+
 @media (max-width:706px) {
   .myimg{
   
@@ -248,3 +244,10 @@ footer p{
   }
 
 }
+@media (max-width:768px) {
+footer{  
+    bottom: -50%;
+    position: absolute;
+}
+  }
+
